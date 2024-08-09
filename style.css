@@ -1,0 +1,166 @@
+@font-face {
+  font-family: Molle;
+  src: url(Molle/Molle-Italic.ttf);
+}
+
+/* STYLE SECTIONING TAGS */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+ background-color: #FFFDEF; 
+  font-family: 'Molle',cursive
+}
+
+header{
+  margin-top: 5%;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-bottom: -36px;
+}
+
+main{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.column {
+  float: left;
+  width: 31%;
+  margin-top: 18px;
+  margin-right: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* STYLE TEXT */
+
+p{
+  color: #0F0B57;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h1{
+  color: #0F0B57;
+  font-family: Poppins;
+  font-size: 42px;
+  font-style: bold;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h2{
+  color: #DB4747;
+  font-family: Molle;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#subheading {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: .25em;
+}
+
+h4 {
+  color: #0F0B57;
+   font-family: Molle;
+   font-size: 26px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+  padding-top: 8px;
+  padding-bottom: 4px;
+}
+
+.special{
+  color: #DB4747;
+  font-family: Molle;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#figmalink{
+  color: #0F0B57;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.titles{
+  font-style: semibold; 
+  font-weight:600;
+}
+
+/* STYLE IMAGES */
+img {
+  max-width: 30%;
+  max-height: 75%;
+  border-radius: 8%;
+  border: solid #0F0B57;
+  border-width: 4px;
+}
+
+.pfpimg{
+  margin-right: 48px;
+}
+
+.portfolioimg{
+  max-width: 95%;
+  max-height: 95%:
+}
+
+/* STYLE NAV BAR */
+.navbutton{
+  border: solid #0F0B57;
+  border-width: 3px;
+  border-radius: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+ul {
+  list-style-type: none;
+  margin-right: 15%;
+}
+
+li{
+  display: inline;
+  float: right;
+  padding-left: 4em;
+}
+
+li a{
+  text-decoration: none;
+  colour: #0F0B57;
+  font-size: 1.15em;
+  font-family: Poppins;
+  font-style: semibold;
+  font-weight: 600;
+}
+
+li a:hover {
+  font-weight: bold;
+}
